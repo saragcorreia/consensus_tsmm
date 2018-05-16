@@ -11,7 +11,7 @@ A consensus metabolic model can be reconstructed based on models obtained by the
 
 An example of the input files to the method is present in the Consensus folder present in the Docker image __saracorreia/consensus_tsmm__.
 
-### References
+### References:
 * [1] Agren R, Mardinoglu A, Asplund A, Kampf C, Uhlen M, Nielsen J. Identification of anticancer drugs for hepatocellular carcinoma through personalized genome-scale metabolic modeling. Molecular Systems Biology. 2014;10(3):1--13.
 * [2] Wang Y, Eddy Ja, Price ND. Reconstruction of genome-scale metabolic models for 126 human tissues using mCADRE. BMC Systems Biology. 2012;6(1):153.
 * [3] Vlassis N, Pacheco MP, Sauter T.Fast reconstruction of compact context-specific metabolic network models. PLoS computational biology. 2014;10(1):e1003424.
