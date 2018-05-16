@@ -1,0 +1,27 @@
+ModelSBMLFile =/Users/Sara/Documents/Projects/PHD_P05_U251/TemplateModels/Recon1.xml
+BiomassReaction = null
+HPAFile = /Users/Sara/Documents/Projects/PHD_P05_U251/Data/hpa_version15_Ensembl78_38_genes.csv
+CHFile = null
+CMFile = null 
+BarcodeFile = /Users/Sara/Documents/Projects/PHD_P05_U251/Data/geb_HGU133plus2_cells_v3_genes_mean.csv
+ConfLevelScores = /Users/Sara/Documents/Projects/PHD_P05_U251/Data/ConfidenceLevelScores.csv
+TaskFile = /Users/Sara/Documents/Projects/PHD_P05_U251/Tasks/MyTask_Recon1.csv
+CellLine = u251
+convertGeneIdsFile = null
+ResultsPath = /Users/Sara/Documents/Projects/PHD_P05_U251/Results/ 
+##################################
+#Configuration properties
+Medium = null
+# Method could be MBA mCADRE tINIT FASTCORE
+Method = mCADRE
+# omicData could be HPA Barcode GeneExp Sets MERGE
+OmicData = Barcode
+#cutoff 1 used in mCADRE and MBA cutoff2 used i MBA
+CutOff1 = 0.5
+CutOff2 = 0.0
+#merge cutoff and numMinRequired of omics
+NumMinRequired = 1
+CutOffMerge = 80
+#init cutoff to convert for the scores 20,15, 10 and -8
+tINITCuttOff = 20;15;10;-8
+MBANumModel= 0;10;

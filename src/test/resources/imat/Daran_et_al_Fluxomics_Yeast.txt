@@ -1,0 +1,45 @@
+Name	ReactionsIDs	GLUCOSE	STD	MALTOSE	STD	ETHANOL	STD	ACETATE	STD
+Maltase	R_MALT	0	0	30.9	0.4	0	0	0	0
+Hexokinase	R_HEX1	29.6	0.2	30.9	0.2	0	0	0	0
+Glucose-6P isomerase	R_PGI	12.7	0.1	14.1	0.3	-5.4	0.1	-4.9	0.1
+Phosphofructokinase	R_PFK	18.8	0.1	20.2	0.3	0	0	0	0
+Fructose-1,6P aldolase	R_FBA	18.8	0.1	20.2	0.3	-6.2	0.1	-5.7	0.1
+Triose_P isomerase	R_TPI	18.5	0.1	19.9	0.3	-6.5	0.1	-6	0.1
+G3P dehydrogenase 	R_GAPD	40.1	0.3	42.9	0.7	-13.3	0.1	-12.4	0.2
+3P-glycerate kinase	R_PGK	40.1	0.3	42.9	0.7	-13.3	0.1	-12.4	0.2
+P-glycerate mutase	R_PGM	38.4	0.3	41.2	0.7	-15.2	0.1	-14.3	0.2
+Enolase	R_ENO	38.4	0.3	41.2	0.7	-15.2	0.1	-14.3	0.2
+Pyruvate kinase	R_PYK	37.2	0.3	40	0.7	4.6	0	4.9	0.1
+Pyruvate dehydrogenase	R_PDHm	21.6	0.2	24.5	0.7	0	0	0	0
+Pyruvate carboxylase	R_PC	5.3	0.1	5.3	0.1	0	0	0	0
+Pyruvate decarboxylase	R_PYRDC	5.9	0.1	5.8	0.1	0	0	0	0
+Alc. Dehydrogenase	R_ALCD2x	0	0	0	0	-94	0.7	0	0
+Alc. Dehydrogenase	R_ALCD2m	0	0	0	0	0	0	0	0
+Acetald. Dehydrogenase, NAD	R_ABUTDm	0	0	0	0	62.7	0.7	0	0
+Acetald. Dehydrogenase, NADP	R_ALDD19x	6	0.1	6	0.1	31.7	0.3	0.1	0
+Acetyl-CoA synthase	R_ACS	6.1	0.1	6.1	0.1	94.5	0.7	146	1.5
+Citrate synthase M	R_CSm	21.6	0.2	14.5	0.7	0	0	0	0
+Citrate synthase C	R_CSp	0	0	0	0	59.3	0.7	114.8	1.4
+Aconitase	R_ACONT	21.6	0.2	24.5	0.7	59.3	0.7	114.8	1.4
+Isocitrate dehydrogenase, NAD	R_ICDHxm	19.2	0.2	22.1	0.7	30	0.7	54.6	1.7
+Isocitrate dehydrogenase, NADP,C	R_ICDHy	0	0	0	0	0	0	31.1	0.5
+Isocitrate dehydrogenase,	R_ICDHym	2.4	0	2.4	0	2.6	0	2.7	0.5
+a-ketoglutarate dehydrogenase	R_AKGDbm	18.7	0.2	21.7	0.7	29.5	0.7	85.1	1.5
+Succinyl-Co A ligase	R_SUCOASm	18.7	0.2	21.7	0.7	29.5	0.7	85.1	1.5
+Succinate dehydrogenase	R_SUCD1m	18.7	0.2	21.7	0.7	56.2	0.7	111.6	1.4
+Fumarase, C	R_FUM	1	0	1	0	27.7	0.3	27.6	0.4
+Fumarase, M	R_FUMm	18.7	0.2	21.7	0.7	29.5	0.7	85.1	1.5
+Malate dehydrogenase, M	R_MDHm	21.9	0.2	24.8	0.7	0.3	0	0.3	0
+Malate dehydrogenase	R_MDH	-2.1	0	-2.1	0	83.7	0.7	138.9	1.4
+Isocitrate Lyase	R_ICL	0	0	0	0	26.7	0.2	26.5	0.4
+Malate synthase	R_MALSp	0	0	0	0	26.7	0.2	26.5	0.4
+PEP carboxykinase	R_PPCK	0	0	0	0	21.1	0.2	20.5	0.3
+Fructose-bisphosphatase	R_FBP	0	0	0	0	6.2	0.1	5.7	0.1
+Glucose-6P dehydrogenase	R_G6PDH2	10.2	0.1	10.1	0.1	0	0	0	0
+6P-gluconolactonase	R_PGL	10.2	0.1	10.1	0.1	0	0	0	0
+6P-gluconate dehydrogenase	R_GND	10.2	0.1	10.1	0.1	0	0	0	0
+Ribose-P isomerase	R_RPI	3.3	0	3.3	0	-0.1	0	-0.01	0
+Ribulose-P epimerase	R_RPE	6.1	0.1	6	0.1	-0.7	0	-0.8	0
+Transketolase 1	R_TKT1	3.3	0	3.3	0	-0.1	0	-0.1	0
+Transaldolase	R_TALA	3.3	0	3.3	0	-0.1	0	-0.1	0
+Transketolase 2	R_TKT2	2.7	0	2.7	0	-0.7	0	-0.7	0

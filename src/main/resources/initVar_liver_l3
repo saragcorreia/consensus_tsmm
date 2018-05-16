@@ -1,0 +1,27 @@
+ModelSBMLFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/TemplateModels/Recon2_v04.xml 
+BiomassReaction = R_biomass_reaction
+HPAFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/hpa_liver_hepatocytes_supportive_genes.csv
+CHFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/MBA_HighReactions_Recon2.txt
+CMFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/MBA_ModerateReactions_Recon2.txt
+BarcodeFile =/Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/barcode_hepatocyte_HGU133plus2_cells_v3_genes_mean.csv
+MapGeneESNG2SYMBOL =/Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Liver/OmicData/Map_ESNG_to_SYMBOL.txt
+ConfLevelScores = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/ConfidenceLevelScores.csv
+TaskFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Tasks/MyTask_Recon2.csv
+CellLine = hepatocytes
+convertGeneIdsFile=/Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/genesRecon2_v04.csv  
+ResultsPath = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Liver_Recon2_v4/Results/
+#Configuration properties
+Medium = null
+# Method could be MBA mCADRE tINIT
+Method = mCADRE
+# omicData could be HPA Barcode GeneExp Sets MERGE
+OmicData = HPA
+#cutoff 1 used in mCADRE and MBA cutoff2 used i MBA
+CutOff1 = 15
+CutOff2 = 0.0
+#merge cutoff and numMinRequired of omics
+NumMinRequired = 1
+CutOffMerge = 80
+#init cutoff to convert for the scores 20,15, 10 and -8
+tINITCuttOff = 0.9;0.5;0.1;0.0
+MBANumModel= 0;10;

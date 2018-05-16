@@ -1,0 +1,30 @@
+#ModelSBMLFile =/Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/TemplateModels/Recon1.xml
+ModelSBMLFile =/Users/Sara/Downloads/ecoli_core_model.xml
+BiomassReaction = null
+HPAFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/hpa_liver_hepatocytes_v14_genes.csv
+CHFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/MBA_HighReactions_Recon1.txt
+CMFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/MBA_ModerateReactions_Recon1.txt
+BarcodeFile =/Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/liver/MBA_HighReactions_Recon1.txt
+ConfLevelScores = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/ConfidenceLevelScores.csv
+TaskFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Tasks/MyTask_Recon1.csv 
+CellLine = hepatocytes
+convertGeneIdsFile = null
+#convertGeneIdsFile = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/OmicData/genesRecon2_v04.csv
+ResultsPath = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Liver_Recon1/Results/HPA_v14/
+#Configuration properties
+Medium = null
+# Method could be MBA mCADRE tINIT FASTCORE
+Method = FASTCORE
+# omicData could be HPA Barcode GeneExp Sets MERGE
+OmicData = HPA
+#cutoff 1 used in mCADRE and MBA cutoff2 used i MBA
+CutOff1 = 15
+CutOff2 = 0.0
+#init cutoff to convert for the scores 20,15, 10 and -8
+tINITCuttOff = 20;15;10;-8
+MBANumModel= 0;10;
+#parameters to build the final MBA model
+basedirMBA = /Users/Sara/Documents/Projects/PHD_P06_HEPG2/Liver_and_HEPG2/Results_HPAv14_GEB/Liver_MBA_v2/
+coreReacsFinalMBA = /Users/Sara/Documents/Projects/PHD_P01_Reconst_Approaches/Liver_Recon1/Results/HPA_v14_JORGE/core_HPA.txt
+solver=GLPK
+

@@ -1,0 +1,1 @@
+ID;Description;INPUT;LB_input;UB_input;OUTPUT;LB_output;UB_output;EQUtask_1;Oxigen uptake;"M_m02630s;M_m01286s";" -10;-1";" -10;0";M_m02630c;1;1000;task_2;Test creation drain;M_m02630s;;;M_m02623c;1;;task_3;Metabolit inexistent;XPTO;;;;;;task_4;No drain no production ;M_m02626c;-10;-5;;;;
